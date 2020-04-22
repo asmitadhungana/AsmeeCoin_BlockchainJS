@@ -1,0 +1,33 @@
+npm init
+npm install sha256 --save
+npm install express --save
+npm install --save nodemon
+Install Postman api
+npm install body-parser --save
+change the "start command on package.json file to "node_1": "nodemon --watch dev -e js dev/networkNode.js 3001" //already done
+
+
+//to create an address for our nodes
+npm install uuid --save
+
+from vid 8 of chp2
+
+npm run node_1
+it'll start listening to port 3001 and likewise
+npm run node_2 to 5 in diff cmd tabs
+
+=> npm install request-promise --save  //this library will allow us to make requests to all the other nodes in the ntk
+
+=> restart all the  nodes
+
+Go to vid 10 of Chp: Synchronizing and do it all to check for transactions
+
+consensus algo used: longest chain rule
+=> takes a look at a single node in the BC
+=> compares the length of the chain in the node with all the other nodes' chain lengths
+=> if there is a chain file that has a longer length than the length of chain in that node, 
+=> replace the chain on that node with the longest chain in the ntk
+ 
+ ==> [implemented by Bitcoin ntk]
+
+ BLOCKEXPLORER: let's us interact with our blockchain via an UI
