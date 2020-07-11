@@ -1,0 +1,2 @@
+# AsmeeCoin_BlockchainJS
+It is a blockchain built in JS that implements the Blockchain data structure,proof of work, network nodes synchronization and consensus algorithms to make a fully functional blockchain that can be established in various computers(nodes) and hosted in the same computer too, using various nodes! This was inspired by Eric Traub's Udemy course titled "Build a blockchain in JS"
